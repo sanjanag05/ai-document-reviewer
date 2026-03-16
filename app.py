@@ -13,7 +13,7 @@ st.set_page_config(
 )
 
 
-client = Groq(api_key=os.environ.get("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"))
+client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
 st.title("AI Document Review Tool")
 
